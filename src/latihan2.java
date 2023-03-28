@@ -11,7 +11,7 @@ public class latihan2 {
         hewan.add("Kambing");
         hewan.add("Unta");
         hewan.add("Domba");
-        hewan.add("Kucing");
+        
 
         System.out.println("Nama Hewan: " + hewan);
         System.out.println("Hewan yang di hapus : Kelinci, Kambing");
@@ -19,6 +19,7 @@ public class latihan2 {
         LinkedList<String> deleteHewan = new LinkedList<>();
         hewan.remove("Kelinci");
         hewan.remove("Kambing");
+        hewan.remove("Unta");
 
         System.out.println("Setelah di hapus : " + hewan);
     }
